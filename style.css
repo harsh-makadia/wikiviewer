@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+a {
+  text-decoration: none;
+}
+body {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  background: #446CB3;
+   background: -moz-linear-gradient(-45deg,  #f6f8f9 0%, #52B3D9 37%, #d7dee3 64%, #52B3D9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #f6f8f9 0%,#52B3D9 37%,#d7dee3 64%,#52B3D9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #f6f8f9 0%,#52B3D9 37%,#d7dee3 64%,#52B3D9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+}
+.wiki-article {
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  color: #666;
+  margin: 15px auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s;
+  width: 600px;
+}
+@media(max-width: 700px) {
+  .wiki-article {
+    width: 80%;
+  
+}
+.wiki-article:hover {
+  background: #eee;
+  border: 3px solid #999;
+  color: #000;
+
+}
+/*text input is from here: https://tympanus.net/Development/TextInputEffects/; */
+.input {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 1em;
+  max-width: 350px;
+  width: calc(100% - 2em);
+  vertical-align: top;
+}
+
+.input__field {
+  position: relative;
+  display: block;
+  float: right;
+  padding: 0.8em;
+  width: 60%;
+  border: none;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: #aaa;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none; 
+}
+
+.input__field:focus {
+  outline: none;
+}
+
+.input__label {
+  display: inline-block;
+  float: right;
+  padding: 0 1em;
+  width: 40%;
+  color: #696969;
+  font-weight: bold;
+  font-size: 70.25%;
+  
+}
+
+.input__label-content {
+  position: relative;
+  display: block;
+  padding: 1.6em 0;
+  width: 100%;
+}
+
+.graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: none;
+}
+
+.icon {
+  color: #ddd;
+  font-size: 150%;
+}
+
