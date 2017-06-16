@@ -1,5 +1,4 @@
-<h1>Wikipedia Viewer<h1> 
-<p>A freeCodeCamp project</p>
-
+# Wikipedia Viewer 
+### A freeCodeCamp project
 
 https://harsh-makadia.github.io/
