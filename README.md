@@ -1,4 +1,4 @@
 # Wikipedia Viewer 
 ### A freeCodeCamp project
 
-https://harsh-makadia.github.io/
+https://harsh-makadia.github.io/wikiviewer/
